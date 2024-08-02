@@ -10,12 +10,20 @@ body {
 .line-2{
   display: flex;
   justify-content: center;
+  gap: 52px;
+  
 }
 
 .plant{
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
+  flex: 0 0 200p;
+}
+
+.text{
+  text-align: center;
+  text-wrap: wrap;
 }
 
 img {
